@@ -8,6 +8,7 @@
     align-items: center;
     color: black;
     font-family: 'Josefin Sans', 'sans-serif';
+    z-index: 999;
 }
 
 .topCenter {
