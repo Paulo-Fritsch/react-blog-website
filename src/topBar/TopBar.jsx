@@ -4,7 +4,7 @@ import './TopBar.css'
 
 export default function TopBar (){
     return (
-        <div className="top">
+        <div className="top-bar">
            <div className="topLeft">
            <i className="topIcon fab fa-github-square"></i>
            <i className="topIcon fab fa-linkedin"></i>
@@ -24,7 +24,7 @@ export default function TopBar (){
                <img 
                className="topImg"
                src="https://avatars.githubusercontent.com/u/61642721?v=4" 
-               alt="User Image" />
+               alt="User" />
 
                <i className="topSearchIcon fas fa-search"></i>
            </div>
