@@ -1,12 +1,13 @@
 import React from "react";
 import Home from "./pages/home/Home";
-import TopBar from "./topBar/TopBar";
+import TopBar from "./components/topBar/TopBar";
+import Single from "./pages/single/Single";
 
 export default function App() {
   return (
     <> 
       <TopBar/>
-      <Home/>
+      <Single/>
     </>
   );
 }

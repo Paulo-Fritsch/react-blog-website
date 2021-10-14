@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-import background from '../assets/imgs/background.jpg'
+import background from '../../assets/imgs/background.jpg'
 
 export default function Header (){
     return (

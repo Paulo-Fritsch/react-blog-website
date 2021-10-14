@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../../header/Header';
-import GroupPosts from '../../groupPosts/GroupPosts';
-import SideBar from '../../sideBar/SideBar';
+import Header from "../../components/header/Header";
+import GroupPosts from '../../components/groupPosts/GroupPosts.jsx';
+import SideBar from '../../components/sideBar/SideBar.jsx';
 import './Home.css'
 
 

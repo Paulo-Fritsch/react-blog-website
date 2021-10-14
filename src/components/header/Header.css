@@ -8,11 +8,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Lora', serif;
-    
-    color: linear-gradient(225deg, #FBAB7E 0%, #F7CE68 100%);
-    
-
-    
+    color: black;
 }
 
 .headerSubtitle1 {

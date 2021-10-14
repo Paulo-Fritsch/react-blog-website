@@ -22,20 +22,20 @@
     justify-content: center;
 }   
 
-.topIcon{
+.topIcon {
     font-size: 25px;
     margin-right: 10px;
     color: #444;
     cursor: pointer;
 }
-.topImg{
+.topImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.topList{
+.topList {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -43,7 +43,7 @@
     list-style: none;
 }
 
-.topListItem{
+.topListItem {
     margin-right: 20px;
     font-size: 18px;
     font-weight:300;

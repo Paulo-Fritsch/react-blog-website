@@ -1,4 +1,4 @@
-.side-Bar{
+.side-Bar {
     flex: 3;
     margin: 20px;
     padding-bottom: 30px;
@@ -9,13 +9,13 @@
     align-items: center;
 }
 
-.side-barItem{
+.side-barItem {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.side-barTitle{
+.side-barTitle {
     margin: 10px;
     padding: 5px;
     width: 80%;
@@ -30,29 +30,29 @@
 
 }
 
-.side-barItem img{
+.side-barItem img {
     margin-top: 15px;
 }
 
-.side-barItem  p{
+.side-barItem  p {
     padding: 30px;
     text-align: center;
 }
 
-.side-barList{
+.side-barList {
     list-style-type: none;
     margin-bottom: 30px;
    
 }
 
-.side-barListItem{
+.side-barListItem {
     display: inline-block;
     width: 50%;
     margin-top: 15px;
     cursor: pointer;
 }
 
-.side-barSocial{
+.side-barSocial {
     margin-top: 15px;
     width: 250px;
     display: flex;
@@ -60,12 +60,12 @@
     justify-content: center;
 }
 
-.side-barIcon{
+.side-barIcon {
     font-size: 25px;
     margin-left: 11px;
 }
 
-.side-barIMG{
+.side-barIMG {
     width: 200px;
     height: 200px;
     border: 4px solid rgb(238, 240, 151);
