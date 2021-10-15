@@ -1,3 +1,67 @@
-.single-post{
+.single-post {
     flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostIMG {
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: 'Lora', serif;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: teal;
+
+}
+/* First-Child, representa o primeiro icone, no caso o icone
+    que foi declarado primeiro dentro de posticon */
+
+.singlePostIcon:last-child{
+    color: tomato;
+    
+}
+/* Last-Child, representa o ultimo icone, no caso o icone
+    que foi declarado ao finalizar o posticon */
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: rgba(22, 6, 18, 0.808);
+}
+
+.singlePostDescription{
+    color: #666;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.singlePostDescription::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
